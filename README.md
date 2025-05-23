@@ -57,6 +57,5 @@ This repository showcases practical implementations of core concepts in Operatin
 ### 6. 🐚 Shell Scripting
 - ✅ Writing basic shell scripts
 - ✅ File operations and automation
-- ✅ System information scripts
 
 📁 Directory: `ShellScripts/`
