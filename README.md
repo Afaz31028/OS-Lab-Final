@@ -8,9 +8,8 @@ This repository showcases practical implementations of core concepts in Operatin
 ## 📘 Topics Covered
 
 ### 1. 👤 Process Management
-- ✅ Creating and terminating processes
-- ✅ Process states and transitions
-- ✅ Simulating zombie and orphan processes
+- ✅ Process Creation
+- ✅ Process Termination
 
 📁 Directory: `ProcessManagement/`
 
@@ -19,7 +18,7 @@ This repository showcases practical implementations of core concepts in Operatin
 ### 2. 🧵 Thread Management
 - ✅ Creating and joining threads
 - ✅ Passing parameters to threads
-- ✅ Comparing threads vs. processes
+- ✅ Simulate Deadlock
 
 📁 Directory: `Threading/`
 
@@ -37,17 +36,18 @@ This repository showcases practical implementations of core concepts in Operatin
 
 ### 4. 🔒 Process Synchronization
 - ✅ Producer-Consumer Problem
-  - With Semaphores
-  - With Mutex
 - ✅ Reader-Writer Problem
-- ✅ Deadlock simulation
+- ✅ Race Condition
 
 📁 Directory: `Synchronization/`
 
 ---
 
 ### 5. 🗃️ File Management
-- ✅ Creating, copying, deleting, and moving files using C
+- ✅ Creating New File
+- ✅ Deleting a File
+- ✅ Copying a File
+- ✅ Moving a File
 - ✅ Handling file descriptors and system calls
 
 📁 Directory: `FileManagement/`
