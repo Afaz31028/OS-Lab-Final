@@ -1,7 +1,4 @@
 # OS-Lab-Final
-# Operating Systems Lab
-
-This repository contains practical implementations of various **Operating Systems** concepts including process handling, threading, CPU scheduling, synchronization, file management, and shell scripting.
 # 🧠 Operating Systems Lab
 
 This repository showcases practical implementations of core concepts in Operating Systems, including **processes**, **threads**, **CPU scheduling**, **synchronization**, **file management**, and **shell scripting**.
