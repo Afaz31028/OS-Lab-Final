@@ -2,51 +2,64 @@
 # Operating Systems Lab
 
 This repository contains practical implementations of various **Operating Systems** concepts including process handling, threading, CPU scheduling, synchronization, file management, and shell scripting.
+# 🧠 Operating Systems Lab
+
+This repository showcases practical implementations of core concepts in Operating Systems, including **processes**, **threads**, **CPU scheduling**, **synchronization**, **file management**, and **shell scripting**.
 
 ---
 
-## 📘 Syllabus Overview
+## 📘 Topics Covered
 
-### 🧵 Threading & Process Handling
-- ✅ Process creation and termination
-- ✅ Thread creation and joining
+### 1. 👤 Process Management
+- ✅ Creating and terminating processes
+- ✅ Process states and transitions
+- ✅ Simulating zombie and orphan processes
+
+📁 Directory: `ProcessManagement/`
+
+---
+
+### 2. 🧵 Thread Management
+- ✅ Creating and joining threads
 - ✅ Passing parameters to threads
-- ✅ Simulating deadlock
+- ✅ Comparing threads vs. processes
 
-### ⚙️ CPU Scheduling Algorithms
-(Programmatic solutions for mock scenarios with given data)
+📁 Directory: `Threading/`
+
+---
+
+### 3. ⚙️ Process Scheduling Algorithms
 - ✅ First Come First Serve (FCFS)
 - ✅ Shortest Job First (SJF)
 - ✅ Priority Scheduling
 - ✅ Round Robin Scheduling
 
-### 🔒 Synchronization Problems
-- ✅ Producer-Consumer Problem (Race Condition Simulation)
-  - Using **Semaphore**
-  - Using **Mutex**
-- ✅ Reader-Writer Problem
-  - Solved using **Mutex**
-
-### 🗃️ File Management
-- ✅ Create files
-- ✅ Delete files
-- ✅ Copy files
-- ✅ Move files
-
-### 🐚 Shell Scripting
-- ✅ Basic shell scripting tasks
-  - File operations
-  - System info scripts
-  - Automations
+📁 Directory: `Scheduling/`
 
 ---
 
-## 🗂️ Directory Structure
+### 4. 🔒 Process Synchronization
+- ✅ Producer-Consumer Problem
+  - With Semaphores
+  - With Mutex
+- ✅ Reader-Writer Problem
+- ✅ Deadlock simulation
 
-```plaintext
-├── ProcessManagement/
-├── Threading/
-├── Scheduling/
-├── Synchronization
-├── ShellScripts/
-└── README.md
+📁 Directory: `Synchronization/`
+
+---
+
+### 5. 🗃️ File Management
+- ✅ Creating, copying, deleting, and moving files using C
+- ✅ Handling file descriptors and system calls
+
+📁 Directory: `FileManagement/`
+
+---
+
+### 6. 🐚 Shell Scripting
+- ✅ Writing basic shell scripts
+- ✅ File operations and automation
+- ✅ System information scripts
+
+📁 Directory: `ShellScripts/`
